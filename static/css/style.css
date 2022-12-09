@@ -36,14 +36,16 @@
     z-index: -1;
     height: 100%;
     width: 100%;
-    background-color: hsl(248, 32%, 49%);
+    /* background-color: hsl(248, 32%, 49%); */
+    /* background: #7380ec; */
+    background: rgba(175,134,37,0.62);
     opacity: .7;
     content: '';
 }
 
 .reg-text{
     margin-right: 30px;
-    color: #fff;
+    color: #363949;
     text-align: left;
     line-height: 2rem;
 }
@@ -64,7 +66,8 @@
 }
 
 .msg{
-    background: hsl(248, 32%, 49%);
+    /* background: hsl(248, 32%, 49%); */
+    background: #B09051;
     color: #fff;
     padding: 20px;
     border-radius: 7px;
@@ -151,7 +154,9 @@
     width: 100%;
     text-transform: capitalize;
     color: #fff;
-    background: hsl(248, 32%, 49%);
+    /* background: hsl(248, 32%, 49%); */
+    background: #B09051;
+    /* background: #1C2A33 */
   }
 
 @media (max-width: 1024px) {
